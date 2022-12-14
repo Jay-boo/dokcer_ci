@@ -12,15 +12,3 @@ jobs:
      -
        name: simple echo
        run: echo main
-     - 
-     #  name: simple echo
-     #  uses: actions/checkout@v3
-     # -
-     #  name: login to docker hub
-     #  uses: docker/login-actions@v2
-     #  with:
-     #    username: ${{secrets....}}
-     #    password: ${{secrerts ....}}
-     # -
-     #  name:set up docker build
-     #  uses:docker/build 
