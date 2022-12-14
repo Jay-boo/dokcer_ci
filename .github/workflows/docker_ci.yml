@@ -10,8 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
      -
-      name: simple echo
-      run: echo main
+
+       name: simple echo
+       run: echo main
      - 
      #  name: simple echo
      #  uses: actions/checkout@v3
