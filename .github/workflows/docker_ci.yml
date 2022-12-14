@@ -1,8 +1,9 @@
 name: docker_ci
 
-push:
-  branches:
-    - "main"
+on:
+  push:
+    branches:
+      - "main"
 
 jobs:
   build:
